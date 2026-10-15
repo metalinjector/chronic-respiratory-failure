@@ -1,0 +1,21 @@
+{
+  "name": "hdn-lecture-pdf-build",
+  "private": true,
+  "description": "Markdown -> HTML -> Chromium -> PDF pipeline for the lecture «Хроническая дыхательная недостаточность»",
+  "scripts": {
+    "build": "bash build.sh"
+  },
+  "dependencies": {
+    "@fontsource/noto-emoji": "^5.3.2",
+    "@fontsource/noto-sans-math": "^5.3.0",
+    "@fontsource/noto-sans-symbols-2": "^5.3.0",
+    "@fontsource/pt-sans": "^5.3.0",
+    "@fontsource/pt-serif": "^5.3.0",
+    "cheerio": "^1.2.0",
+    "hyphen": "^1.14.1",
+    "katex": "^0.19.0",
+    "markdown-it": "^15.0.2",
+    "mermaid": "^12.2.0",
+    "puppeteer-core": "^25.14.0"
+  }
+}

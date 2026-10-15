@@ -1,0 +1,7 @@
+node_modules
+chrome
+_lecture_*.html
+_lecture_*.pdf
+*.tmp.pdf
+pages.json
+headings.json
